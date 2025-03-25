@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100svh;
+    background-color: #028734;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #028734;
+    box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.531);
+    width: 600px;
+    height: 550px;
+    gap: 55px;
+    
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login input{
+    width: 400px;
+    height:40px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 20px;
+}
+
+.login button{
+    width: 400px;
+    height:40px;
+    border-radius: 20px;
+    background-color: #5CC6BA;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+}
+.login button:hover{
+    background-color: #31d1be;
+}
+
+
+
+.lembrarSenha{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+    color: #ffffffce;
+    font-size: 12px;
+   
+}
+
+.lembrarSenha input{
+   width: 17px;
+}
+.RecuperaSenha p{
+    padding-left: 20px;
+    font-weight: bold;
+    color: #ffffffce;
+
+    & a{
+        color: #000;
+    }
+}
+
+footer{
+    border-top: 1px solid #ffffff78;
+    width: 600px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+
+    & a{
+        color: #ffffffce;
+        text-decoration: none;
+        position: absolute;
+        padding-top: 7px;
+    }
+
+    & a:hover{
+        text-decoration: underline;
+    }
+}
+
+
+
